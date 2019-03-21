@@ -1,16 +1,19 @@
 {
-  "name": "loopImageData",
+  "name": "loop-image-data",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:wasm": "gulp",
     "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^1.12.3",
+    "assemblyscript": "AssemblyScript/assemblyscript",
+    "gulp": "^3.9.1",
+    "parcel": "*",
     "typescript": "^3.3.4000"
   },
   "dependencies": {
